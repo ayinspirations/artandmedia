@@ -414,7 +414,7 @@ def build_project(i, p):
   {media(hero, '100vw', f"{p['kunde']} – {p['titel']}", eager=True, img_extra='style="view-transition-name:project-media"')}
   <div class="p-hero__text wrap">
     <span class="eyebrow eyebrow--gold">{e(p['kunde'])}</span>
-    <h1 class="h1" data-split>{lines(e(p['titel']))}</h1>
+    <h1 class="h1" data-split>{lines(e(p['titel']).replace(' – ', '\u00a0– '))}</h1>
   </div>
 </section>
 <div class="wrap">
@@ -457,10 +457,13 @@ def build_leistung(svc):
     others = ''.join(f'<a href="{s[3]}"><span>{i:02d}</span><strong>{e(s[1])}</strong></a>'
                      for i, s in enumerate(SERVICES, 1) if s[0] != key)
     body = f'''
-<section class="l-hero wrap">
-  <span class="eyebrow" data-reveal>Leistung {SERVICES.index(svc)+1:02d}</span>
-  <h1 class="display" style="margin-top:var(--stack-m)" data-split>{lines(e(label))}</h1>
-  <div class="l-hero__media" data-reveal="media">{media(rel, '(max-width: 1440px) 100vw, 1440px', label, eager=True, style='position:absolute;inset:0')}</div>
+<section class="p-hero p-hero--service">
+  {media(rel, '100vw', label, eager=True)}
+  <div class="p-hero__text wrap">
+    <span class="eyebrow eyebrow--gold">Leistung {SERVICES.index(svc)+1:02d}</span>
+    <h1 class="display" data-split>{lines(e(label))}</h1>
+    <p class="lead p-hero__lead" data-reveal style="--d:300">{e(info['teaser'])}</p>
+  </div>
 </section>
 <section class="section wrap">
   <div class="l-text">
