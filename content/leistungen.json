@@ -1,0 +1,164 @@
+{
+  "_hinweis": "Reihenfolge = Reihenfolge auf der Website. 'original_md' verweist auf den Originaltext der alten Seite (bleibt vollständig erhalten). 'intro' und 'liefern' sind neue Textentwürfe – vom Kunden zu bestätigen.",
+  "leistungen": [
+    {
+      "key": "messe",
+      "label": "Messebau & Event",
+      "kurz": "Messebau",
+      "seite": "leistung-messebau-event.html",
+      "original_md": "05-messe-event.md",
+      "bild": [
+        "mercedes-winterwelt",
+        0
+      ],
+      "schwerpunkt": true,
+      "teaser": "Messestände, Showrooms und Event-Bauten – geplant, gefertigt und aufgebaut aus einer Hand. Termingerecht und bis ins Detail markengerecht.",
+      "intro": [
+        "Ein Messeauftritt hat nur wenige Tage, um zu überzeugen. Wir entwickeln Messestände und Eventflächen, die Ihre Marke räumlich erlebbar machen – vom ersten Entwurf über die Produktion bis zum Auf- und Abbau vor Ort.",
+        "Ob kompakter Systemstand, individueller Markenauftritt oder Bühne für die Führungskräftekonferenz: Wir verbinden Standbau, Möbel, Licht und Grafik zu einem stimmigen Ganzen – und behalten Termine und Budget im Blick."
+      ],
+      "liefern": [
+        "Messestand-Konzept und Design",
+        "Individueller Standbau und Systembau",
+        "Bühnen, Kulissen und Pressewände",
+        "Messemöbel, Counter und Exponat-Präsentation",
+        "Großformatdruck, Textilrahmen und Branding",
+        "Licht- und LED-Inszenierung",
+        "Logistik, Auf- und Abbau",
+        "Ausstattung für Events und Roadshows"
+      ],
+      "bild_karte": [
+        "mercedes-claims",
+        0
+      ]
+    },
+    {
+      "key": "store",
+      "label": "Storegestaltung & POS",
+      "kurz": "Storegestaltung",
+      "seite": "leistung-storegestaltung.html",
+      "original_md": "01-store-pos.md",
+      "bild": [
+        "mercedes-winterwelt",
+        3
+      ],
+      "schwerpunkt": true,
+      "teaser": "Schaufenster, Shop-Interior und POS-Medien, die verkaufen – von der Neueröffnung bis zur saisonalen Kampagne.",
+      "intro": [
+        "Am Point of Sale entscheidet sich, ob Ihre Marke wahrgenommen wird. Wir gestalten und realisieren Stores, Showrooms und Verkaufsflächen – vom Eingang über die Warenpräsentation bis zum Counter.",
+        "Für Markenhersteller, Handel und Filialisten setzen wir Ladenbau-Elemente, Schaufenster und Kampagnen um – auf Wunsch auch als Rollout über mehrere Standorte."
+      ],
+      "liefern": [
+        "Schaufenstergestaltung und Folierung",
+        "Shop-Interior und Wandgestaltung",
+        "Produktpräsenter, Displays und Vitrinen",
+        "Saisonale Dekorationen und Kampagnen",
+        "Counter, Kassen- und Empfangsbereiche",
+        "Leuchtkästen und Digital Signage",
+        "Neueröffnungen und Umbauten",
+        "Rollouts für Filialnetze"
+      ],
+      "bild_karte": [
+        "mercedes-winterwelt",
+        3
+      ]
+    },
+    {
+      "key": "moebel",
+      "label": "Möbelbau & Displays",
+      "kurz": "Möbelbau",
+      "seite": "leistung-moebelbau.html",
+      "original_md": null,
+      "bild": [
+        "hugo-boss-awards",
+        2
+      ],
+      "schwerpunkt": true,
+      "teaser": "Counter, Theken, Vitrinen und Präsenter nach Maß – gefertigt für Ihre Marke, Ihren Raum und Ihren Einsatz.",
+      "intro": [
+        "Gute Markenräume brauchen Möbel, die es so nicht von der Stange gibt. Wir planen und fertigen Counter, Theken, Vitrinen, Präsenter und Displays nach Maß – passend zu Ihrem Corporate Design und zum jeweiligen Einsatz.",
+        "Ob mobil für Messe und Roadshow, robust für den Handel oder edel für Showroom und Empfang: Wir kombinieren Holz, Metall, Acryl, Licht und Druck zu Möbeln, die Ihre Marke tragen."
+      ],
+      "liefern": [
+        "Empfangs- und Messetheken",
+        "Vitrinen und Exponat-Sockel",
+        "Produktpräsenter und Displays",
+        "Mobile Möbel und Rollcontainer",
+        "Regal- und Wandsysteme",
+        "Award-Trophäen und Objekte",
+        "Integrierte Beleuchtung und Medientechnik",
+        "Branding durch Druck, Folie und Fräsung"
+      ],
+      "bild_karte": [
+        "mercedes-markenkommunikation",
+        2
+      ]
+    },
+    {
+      "key": "3d",
+      "label": "3D / LED Buchstaben",
+      "kurz": "3D- und LED-Buchstaben",
+      "seite": "leistung-3d-led-buchstaben.html",
+      "original_md": "02-3d-led-buchstaben.md",
+      "bild": [
+        "amg-petronas-f1",
+        2
+      ],
+      "schwerpunkt": false,
+      "teaser": "Jedes Logo in 3D – aus Kunststoff, Holz, Edelstahl oder Stein, als Front- oder Rückleuchter, lackiert oder poliert.",
+      "intro": [],
+      "liefern": [
+        "Leuchtbuchstaben als Front-, Rück- oder Seitenleuchter",
+        "3D-Logos aus Acryl, Edelstahl, Holz oder Stein",
+        "Lichtwerbeanlagen und Leuchtkästen",
+        "Pylone und Stelen",
+        "LED-Schriftzüge für Innenräume",
+        "Montage an Fassade und Wand"
+      ]
+    },
+    {
+      "key": "geb",
+      "label": "Gebäude- und Objektgestaltung",
+      "kurz": "Gebäude & Objekt",
+      "seite": "leistung-gebaeude-objektgestaltung.html",
+      "original_md": "03-gebaeude-objektgestaltung.md",
+      "bild": [
+        "westwing",
+        0
+      ],
+      "schwerpunkt": false,
+      "teaser": "Von der Folierung der Scheiben über Wandgestaltung und Pylone bis zu Lichtkästen und LED-Anlagen.",
+      "intro": [],
+      "liefern": [
+        "Fassadenbeschriftung und Fassadendruck",
+        "Glasdekor, Sicht- und Sonnenschutzfolien",
+        "Wandgestaltung und Raumgrafik",
+        "Trennwände und Aufsteller",
+        "Pylone, Fahnenmasten und Lichtkästen",
+        "Außen- und Parkplatzbeschilderung"
+      ]
+    },
+    {
+      "key": "leit",
+      "label": "Leit- und Orientierungssysteme",
+      "kurz": "Leitsysteme",
+      "seite": "leistung-leit-orientierungssysteme.html",
+      "original_md": "04-leit-orientierungssysteme.md",
+      "bild": [
+        "leitsystem-buerogebaeude",
+        0
+      ],
+      "schwerpunkt": false,
+      "teaser": "Leit- und Orientierungssysteme in enger Abstimmung mit Architekten und Bauherren – inklusive Flucht- und Rettungsplänen.",
+      "intro": [],
+      "liefern": [
+        "Planung in Abstimmung mit Architekten und Bauherren",
+        "Außen- und Innenleitsysteme",
+        "Geschoss-, Raum- und Türbeschilderung",
+        "Parkhaus- und Tiefgaragenleitsysteme",
+        "Flucht- und Rettungspläne",
+        "Montage und Kennzeichnung im Objekt"
+      ]
+    }
+  ]
+}

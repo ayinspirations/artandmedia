@@ -37,6 +37,8 @@ Projektdaten pflegen in `content/projekte/projekte.json` (Kunde, Titel, Leistung
 
 ## Offene Punkte vor Livegang
 - Projektnamen und Texte sind Arbeitstitel → Bestätigung / Freigabe der Kundennamen
+- Neue Leistungstexte (content/leistungen.json: intro, liefern) sind Entwürfe → vom Kunden bestätigen
+- Hosting: Vercel Hobby ist nur für nicht-kommerzielle Nutzung → für den Livegang Vercel Pro, Cloudflare Pages oder Netlify
 - Fakten „26 Jahre“ (aus „2000 – 2026 Copyright“ abgeleitet) bestätigen
 - Kontaktformular braucht Versand (z. B. PHP-Mailer beim Hoster oder Formular-Dienst)
 - Impressum und Datenschutz rechtlich aktualisieren

@@ -24,25 +24,12 @@ e = html.escape
 # ---------------------------------------------------------------------------
 # Leistungen: Schlüssel, Labels, Seitendateien, Originaltexte
 # ---------------------------------------------------------------------------
-SERVICES = [
-    # key, label, kurz, seite, md-datei, bild (slug, index)
-    ('store', 'Store / POS', 'Storegestaltung', 'leistung-store-pos.html', '01-store-pos.md', ('mercedes-winterwelt', 0)),
-    ('3d', '3D / LED Buchstaben', '3D- und LED-Buchstaben', 'leistung-3d-led-buchstaben.html', '02-3d-led-buchstaben.md', ('amg-petronas-f1', 2)),
-    ('geb', 'Gebäude- und Objektgestaltung', 'Gebäude & Objekt', 'leistung-gebaeude-objektgestaltung.html', '03-gebaeude-objektgestaltung.md', ('westwing', 0)),
-    ('leit', 'Leit- und Orientierungssysteme', 'Leitsysteme', 'leistung-leit-orientierungssysteme.html', '04-leit-orientierungssysteme.md', ('leitsystem-buerogebaeude', 0)),
-    ('messe', 'Messe & Event', 'Messe & Event', 'leistung-messe-event.html', '05-messe-event.md', ('mercedes-claims', 0)),
-]
+SVC_DATA = json.load(open(os.path.join(CONTENT, 'leistungen.json')))['leistungen']
+# Tupel: key, label, kurz, seite, md-datei, bild (slug, index)
+SERVICES = [(d['key'], d['label'], d['kurz'], d['seite'], d['original_md'], tuple(d['bild'])) for d in SVC_DATA]
 SVC = {s[0]: s for s in SERVICES}
-LABEL_TO_KEY = {s[1]: s[0] for s in SERVICES}
-
-# Kurze Teaser für die Startseite – aus den Originaltexten abgeleitet
-TEASER = {
-    'store': 'Schaufenster, Produktpräsenter, Dekoration, Möbel und Vitrinen – hochwertige Werbeträger für Ihre Botschaft, Ihr Produkt, Ihre Marke.',
-    '3d': 'Jedes Logo in 3D – aus Kunststoff, Holz, Edelstahl oder Stein, als Front- oder Rückleuchter, lackiert oder poliert.',
-    'geb': 'Von der Folierung der Scheiben über Wandgestaltung und Pylone bis zu Lichtkästen und LED-Anlagen.',
-    'leit': 'Leit- und Orientierungssysteme in enger Abstimmung mit Architekten und Bauherren – inklusive Flucht- und Rettungsplänen.',
-    'messe': 'Kommunikation auf Ihrer Veranstaltung: fast alles, was sich bedrucken lässt, in fast jeder Größe – fach- und termingerecht.',
-}
+INFO = {d['key']: d for d in SVC_DATA}
+TEASER = {d['key']: d['teaser'] for d in SVC_DATA}
 
 
 def read_md(name):
@@ -251,24 +238,33 @@ def build_index():
 
     steps = [('Idee', 'Sie haben die Idee – wir hören zu, beraten und finden gemeinsam die beste Lösung für Ihren Auftritt.'),
              ('Planung', 'Gestaltung, Materialwahl und technische Planung – abgestimmt mit Ihnen, Architekten und Bauherren.'),
-             ('Produktion', 'Wir sind Hersteller: Schilder, Schriften, Drucke und Lichtwerbung entstehen in eigener Fertigung.'),
+             ('Produktion', 'Wir sind Hersteller und Dienstleister: Standbau, Möbel, Schilder, Schriften, Drucke und Lichtwerbung.'),
              ('Montage', 'Fach- und termingerecht vor Ort – an Fassade, im Store, auf der Messe oder im Gebäude.')]
     steps_html = ''.join(f'<div class="step" data-reveal style="--d:{i*90}"><span class="step__n">{i+1:02d}</span><h3 class="h3">{t}</h3><p>{d}</p></div>'
                          for i, (t, d) in enumerate(steps))
 
-    statement = ('ART AND MEDIA ist Gestalter, Ideenfinder und Produzent für Werbetechnik. '
-                 'Wir realisieren Werbe- und Kommunikationsmaßnahmen – von der leuchtenden 3D-Schrift bis zum kompletten Markenauftritt.')
+    statement = ('ART AND MEDIA ist Gestalter, Ideenfinder und Produzent. '
+                 'Wir bauen Messestände, gestalten Stores, fertigen Möbel nach Maß und setzen Marken mit Werbetechnik ins Licht – alles aus einer Hand.')
 
+    focus = []
+    for i, d in enumerate(x for x in SVC_DATA if x['schwerpunkt']):
+        bk = d.get('bild_karte', d['bild'])
+        rel = BY_SLUG[bk[0]]['bilder'][bk[1]]
+        focus.append(f'''<a class="focus" href="{d['seite']}" data-reveal style="--d:{i * 110}">
+      {media(rel, '(max-width: 899px) 82vw, 33vw', d['label'])}
+      <span class="focus__body"><span class="svc__num">{i+1:02d}</span><span class="h3">{e(d['label'])}</span>
+      <span class="focus__text">{e(d['teaser'])}</span><span class="focus__more">Mehr erfahren {ICON_ARROW}</span></span>
+    </a>''')
     body = f'''
 <section class="hero hero--logo-top" aria-label="Einleitung">
   <div class="hero__sticky">
     <div class="hero__text wrap">
-      <span class="eyebrow eyebrow--plain">Werbung · Messe · Event</span>
+      <span class="eyebrow eyebrow--plain">Messebau · Storegestaltung · Möbelbau · Werbetechnik</span>
       <h1 class="display hero__title">{lines('Wir setzen Marken', 'ins Licht.')}</h1>
     </div>
     <div class="hero__media">{media(hero_rel, '100vw', 'Leuchtende 3D-Logos von Mercedes-Benz und Mercedes-AMG PETRONAS Formula One Team an einer Gebäudefassade', eager=True)}</div>
     <div class="hero__caption wrap">
-      <p class="h3">Werbetechnik, Werbesysteme und Außenwerbung aus Gärtringen und Schönaich.</p>
+      <p class="h3">Messebau, Storegestaltung, Möbelbau und Werbetechnik aus Gärtringen und Schönaich.</p>
       <a class="btn btn--ghost" href="projekte.html">Alle Projekte ansehen</a>
     </div>
     <span class="hero__scroll" aria-hidden="true"></span>
@@ -277,11 +273,21 @@ def build_index():
 
 <section class="section">
   <div class="wrap wrap--text">
-    <p class="statement">{split_words(statement, ('Werbetechnik', 'Markenauftritt'))}</p>
+    <p class="statement">{split_words(statement, ('Messestände,', 'Stores,', 'Möbel'))}</p>
   </div>
 </section>
 
-<section class="section--tight" id="projekte" style="padding-top:0">
+<section class="section--tight" id="schwerpunkte" style="padding-top:0">
+  <div class="wrap">
+    <div class="section-head"><div class="section-head__text">
+      <span class="eyebrow" data-reveal>Schwerpunkte</span>
+      <h2 class="h2" data-split>{lines('Messebau. Storegestaltung.', 'Möbelbau.')}</h2>
+    </div></div>
+    <div class="focus-row">{''.join(focus)}</div>
+  </div>
+</section>
+
+<section class="section--tight" id="projekte">
   <div class="wrap section-head">
     <div class="section-head__text">
       <span class="eyebrow" data-reveal>Ausgewählte Projekte</span>
@@ -324,7 +330,7 @@ def build_index():
     <div class="facts">
       <div class="fact" data-reveal><span class="fact__num"><span data-count="26">26</span><small>Jahre</small></span><span class="fact__label">Seit 2000 Partner für Werbetechnik in der Region Stuttgart.</span></div>
       <div class="fact" data-reveal style="--d:100"><span class="fact__num"><span data-count="2">2</span><small>Standorte</small></span><span class="fact__label">Hauptsitz in Gärtringen, Niederlassung in Schönaich.</span></div>
-      <div class="fact" data-reveal style="--d:200"><span class="fact__num"><span data-count="5">5</span><small>Disziplinen</small></span><span class="fact__label">Store, 3D-Buchstaben, Gebäude, Leitsysteme, Messe &amp; Event.</span></div>
+      <div class="fact" data-reveal style="--d:200"><span class="fact__num"><span data-count="6">6</span><small>Disziplinen</small></span><span class="fact__label">Messebau, Storegestaltung, Möbelbau, Lichtwerbung, Gebäude, Leitsysteme.</span></div>
     </div>
   </div>
 </section>
@@ -336,8 +342,8 @@ def build_index():
 
 {cta()}
 '''
-    page('index.html', 'ART AND MEDIA – Werbetechnik, Werbesysteme und Außenwerbung',
-         'ART AND MEDIA – Gestalter, Ideenfinder und Produzent für Werbetechnik aus Gärtringen und Schönaich: 3D-Buchstaben, Lichtwerbung, Leitsysteme, Store- und Messegestaltung.',
+    page('index.html', 'ART AND MEDIA – Messebau, Storegestaltung, Möbelbau und Werbetechnik',
+         'ART AND MEDIA aus Gärtringen und Schönaich: Messebau, Storegestaltung, Möbelbau nach Maß, 3D- und LED-Buchstaben, Lichtwerbung und Leitsysteme – alles aus einer Hand.',
          body, og_img=full_src(hero_rel))
 
 
@@ -439,7 +445,8 @@ def build_project(i, p):
 
 def build_leistung(svc):
     key, label, short, href, md, (pslug, pidx) = svc
-    text = read_md(md)
+    info = INFO[key]
+    text = (read_md(md) if md else []) + info['intro']
     rel = BY_SLUG[pslug]['bilder'][pidx]
     projs = [p for p in PROJECTS if key in p['leistung_keys']]
     cards = '\n'.join(card(p, delay=(i % 3) * 90) for i, p in enumerate(projs))
@@ -458,6 +465,8 @@ def build_leistung(svc):
     <div>
       <p class="lead" data-reveal>{e(first)}</p>
       {''.join(f'<p class="prose" style="margin-top:var(--stack-m)" data-reveal>{e(t)}</p>' for t in rest)}
+      <h2 class="eyebrow eyebrow--plain" style="margin-top:var(--stack-l)" data-reveal>Das liefern wir</h2>
+      <ul class="deliver">{''.join(f'<li data-reveal style="--d:{(i % 2) * 70}">{e(x)}</li>' for i, x in enumerate(info['liefern']))}</ul>
       <div style="margin-top:var(--stack-l);display:flex;gap:.75rem;flex-wrap:wrap" data-reveal>
         <a class="btn btn--gold" href="kontakt.html#anfrage">Projekt anfragen</a>
         <a class="btn btn--ghost" href="projekte.html?leistung={key}">Alle Projekte dieser Leistung</a>

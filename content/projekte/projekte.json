@@ -1,10 +1,11 @@
 {
  "leistungen": {
-  "store": "Store / POS",
+  "messe": "Messebau & Event",
+  "store": "Storegestaltung & POS",
+  "moebel": "Möbelbau & Displays",
   "3d": "3D / LED Buchstaben",
   "geb": "Gebäude- und Objektgestaltung",
-  "leit": "Leit- und Orientierungssysteme",
-  "messe": "Messe & Event"
+  "leit": "Leit- und Orientierungssysteme"
  },
  "projekte": [
   {
@@ -41,7 +42,7 @@
    "kunde": "MercedesTrophy",
    "titel": "World Final im Öschberghof",
    "leistungen": [
-    "Messe & Event",
+    "Messebau & Event",
     "3D / LED Buchstaben",
     "Leit- und Orientierungssysteme"
    ],
@@ -70,12 +71,14 @@
    "kunde": "HUGO × RB",
    "titel": "Markeninszenierung zum Kollektions-Launch",
    "leistungen": [
-    "Messe & Event",
-    "Store / POS"
+    "Messebau & Event",
+    "Storegestaltung & POS",
+    "Möbelbau & Displays"
    ],
    "leistung_keys": [
     "messe",
-    "store"
+    "store",
+    "moebel"
    ],
    "bilder": [
     "gebaeude-objektgestaltung/IMG_8065.jpeg",
@@ -120,12 +123,14 @@
    "kunde": "Mercedes-Benz",
    "titel": "Let’s stay cozy – Winterinszenierung",
    "leistungen": [
-    "Messe & Event",
-    "Store / POS"
+    "Messebau & Event",
+    "Storegestaltung & POS",
+    "Möbelbau & Displays"
    ],
    "leistung_keys": [
     "messe",
-    "store"
+    "store",
+    "moebel"
    ],
    "bilder": [
     "messe-event/IMG_2847.jpeg",
@@ -145,7 +150,7 @@
    "kunde": "Mercedes-Benz",
    "titel": "Timing. Mindset. Energy. – Führungskräftekonferenz",
    "leistungen": [
-    "Messe & Event"
+    "Messebau & Event"
    ],
    "leistung_keys": [
     "messe"
@@ -167,7 +172,7 @@
    "kunde": "Mercedes-Benz × VfB Stuttgart",
    "titel": "JuniorCup & Fahrzeugbranding",
    "leistungen": [
-    "Messe & Event"
+    "Messebau & Event"
    ],
    "leistung_keys": [
     "messe"
@@ -190,12 +195,14 @@
    "kunde": "HUGO BOSS",
    "titel": "Global Retail Awards",
    "leistungen": [
-    "Messe & Event",
-    "Store / POS"
+    "Messebau & Event",
+    "Storegestaltung & POS",
+    "Möbelbau & Displays"
    ],
    "leistung_keys": [
     "messe",
-    "store"
+    "store",
+    "moebel"
    ],
    "bilder": [
     "galerie/IMG_8603-6f528fe1.jpeg",
@@ -215,11 +222,13 @@
    "titel": "Markenkommunikation im Raum",
    "leistungen": [
     "3D / LED Buchstaben",
-    "Gebäude- und Objektgestaltung"
+    "Gebäude- und Objektgestaltung",
+    "Möbelbau & Displays"
    ],
    "leistung_keys": [
     "3d",
-    "geb"
+    "geb",
+    "moebel"
    ],
    "bilder": [
     "galerie/IMG_6322.jpg",
@@ -241,7 +250,7 @@
    "kunde": "Mercedes-EQ Formula E",
    "titel": "Ausstellung im Container",
    "leistungen": [
-    "Messe & Event",
+    "Messebau & Event",
     "Gebäude- und Objektgestaltung"
    ],
    "leistung_keys": [
@@ -264,12 +273,14 @@
    "kunde": "Mercedes-Benz",
    "titel": "Tennis-Inszenierung",
    "leistungen": [
-    "Messe & Event",
-    "Store / POS"
+    "Messebau & Event",
+    "Storegestaltung & POS",
+    "Möbelbau & Displays"
    ],
    "leistung_keys": [
     "messe",
-    "store"
+    "store",
+    "moebel"
    ],
    "bilder": [
     "galerie/a851f342-fd75-44be-8a86-892f92b43534.jpg",
@@ -288,7 +299,7 @@
    "kunde": "tegut…",
    "titel": "Markteröffnungen",
    "leistungen": [
-    "Store / POS",
+    "Storegestaltung & POS",
     "Leit- und Orientierungssysteme",
     "Gebäude- und Objektgestaltung"
    ],
@@ -315,7 +326,7 @@
    "kunde": "EDEKA Gebauer’s",
    "titel": "Fassade und Leergut-Bereich",
    "leistungen": [
-    "Store / POS",
+    "Storegestaltung & POS",
     "Gebäude- und Objektgestaltung"
    ],
    "leistung_keys": [
@@ -339,13 +350,15 @@
    "titel": "Pylon und Counter-Design",
    "leistungen": [
     "Gebäude- und Objektgestaltung",
-    "Store / POS",
-    "Leit- und Orientierungssysteme"
+    "Storegestaltung & POS",
+    "Leit- und Orientierungssysteme",
+    "Möbelbau & Displays"
    ],
    "leistung_keys": [
     "geb",
     "store",
-    "leit"
+    "leit",
+    "moebel"
    ],
    "bilder": [
     "gebaeude-objektgestaltung/IMG_3580.jpg",
@@ -409,10 +422,12 @@
    "kunde": "Bosch × Expert",
    "titel": "#builtwithBosch Messeauftritt",
    "leistungen": [
-    "Messe & Event"
+    "Messebau & Event",
+    "Möbelbau & Displays"
    ],
    "leistung_keys": [
-    "messe"
+    "messe",
+    "moebel"
    ],
    "bilder": [
     "messe-event/IMG_2485.jpeg",
@@ -482,7 +497,7 @@
    "titel": "Interior & Raumgestaltung",
    "leistungen": [
     "Gebäude- und Objektgestaltung",
-    "Store / POS"
+    "Storegestaltung & POS"
    ],
    "leistung_keys": [
     "geb",
@@ -509,7 +524,7 @@
    "kunde": "Verschiedene Kunden",
    "titel": "Events & Ausstellungen",
    "leistungen": [
-    "Messe & Event"
+    "Messebau & Event"
    ],
    "leistung_keys": [
     "messe"
