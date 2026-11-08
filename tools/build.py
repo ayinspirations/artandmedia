@@ -611,6 +611,24 @@ def build_sortierung():
     page('sortierung.html', 'Bildsortierung – ART AND MEDIA Prototyp', 'Arbeitsstand der Bildsortierung.', body)
 
 
+def build_404():
+    body = f'''
+<section class="page-head wrap" style="min-height:70vh;display:grid;align-content:center">
+  <span class="eyebrow" data-reveal>Fehler 404</span>
+  <h1 class="display" data-split>{lines('Diese Seite', 'gibt es nicht.')}</h1>
+  <p class="lead" data-reveal style="--d:200">Vielleicht wurde sie verschoben. Hier geht es weiter:</p>
+  <div class="cta__actions" style="justify-content:start;margin-top:var(--stack-m)" data-reveal>
+    <a class="btn btn--gold" href="/index.html">Zur Startseite</a><a class="btn btn--ghost" href="/projekte.html">Projekte ansehen</a>
+  </div>
+</section>'''
+    page('404.html', 'Seite nicht gefunden – ART AND MEDIA', 'Diese Seite gibt es nicht.', body)
+    # 404 kann unter beliebigen Pfaden ausgeliefert werden → absolute Pfade
+    f = os.path.join(SITE, '404.html')
+    doc = open(f, encoding='utf-8').read()
+    doc = re.sub(r'(href|src)="(?!https?:|mailto:|tel:|/|#)', r'\1="/', doc)
+    open(f, 'w', encoding='utf-8').write(doc)
+
+
 if __name__ == '__main__':
     print('Baue site/ …')
     build_favicon()
@@ -623,4 +641,5 @@ if __name__ == '__main__':
     build_kontakt()
     build_legal()
     build_sortierung()
+    build_404()
     print('fertig.')
