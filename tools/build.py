@@ -228,7 +228,7 @@ def cta(title='Sie haben die Idee.<br>Wir setzen sie um.'):
 # Seiten
 # ---------------------------------------------------------------------------
 def build_index():
-    hero_rel = BY_SLUG['mercedes-amg-affalterbach']['bilder'][0]
+    hero_rel = BY_SLUG['amg-petronas-f1']['bilder'][0]
     featured = ['amg-petronas-f1', 'mercedes-trophy', 'hugo-rb', 'mercedes-amg-affalterbach', 'mercedes-winterwelt',
                 'hugo-boss-awards', 'mercedes-claims', 'westwing', 'tegut']
     cards = '\n'.join(card(BY_SLUG[s], delay=(i % 3) * 90) for i, s in enumerate(featured))
@@ -260,13 +260,13 @@ def build_index():
                  'Wir realisieren Werbe- und Kommunikationsmaßnahmen – von der leuchtenden 3D-Schrift bis zum kompletten Markenauftritt.')
 
     body = f'''
-<section class="hero" aria-label="Einleitung">
+<section class="hero hero--logo-top" aria-label="Einleitung">
   <div class="hero__sticky">
     <div class="hero__text wrap">
       <span class="eyebrow eyebrow--plain">Werbung · Messe · Event</span>
       <h1 class="display hero__title">{lines('Wir setzen Marken', 'ins Licht.')}</h1>
     </div>
-    <div class="hero__media">{media(hero_rel, '100vw', 'Mercedes-AMG Wappenwand in Affalterbach', eager=True)}</div>
+    <div class="hero__media">{media(hero_rel, '100vw', 'Leuchtende 3D-Logos von Mercedes-Benz und Mercedes-AMG PETRONAS Formula One Team an einer Gebäudefassade', eager=True)}</div>
     <div class="hero__caption wrap">
       <p class="h3">Werbetechnik, Werbesysteme und Außenwerbung aus Gärtringen und Schönaich.</p>
       <a class="btn btn--ghost" href="projekte.html">Alle Projekte ansehen</a>

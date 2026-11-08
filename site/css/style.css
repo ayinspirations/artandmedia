@@ -289,7 +289,14 @@ ul, ol { padding: 0; list-style: none; }
   will-change: clip-path;
 }
 .hero__media .media { position: absolute; inset: 0; }
-.hero__media img { transform: scale(calc(1.18 - var(--e) * 0.18)); transform-origin: 50% 60%; will-change: transform; }
+.hero__media img {
+  transform: translateY(calc((1 - var(--e)) * var(--shift, 0px))) scale(calc(1.18 - var(--e) * 0.18));
+  transform-origin: 50% 60%; will-change: transform;
+}
+/* Motiv mit Logo im oberen Bilddrittel: beim Start in die Karte schieben, am Ende mittig */
+.hero--logo-top { --shift: 27vh; }
+.hero--logo-top .hero__media img { object-position: 50% 30%; transform-origin: 50% 40%; }
+@media (max-width: 767px) { .hero--logo-top .hero__media img { object-position: 40% 30%; } }
 .hero__media::after {
   content: ""; position: absolute; inset: 0; pointer-events: none;
   background: linear-gradient(to top, rgba(0,0,0,0.65), rgba(0,0,0,0) 45%);
