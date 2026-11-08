@@ -38,6 +38,7 @@ Projektdaten pflegen in `content/projekte/projekte.json` (Kunde, Titel, Leistung
 ## Offene Punkte vor Livegang
 - Projektnamen und Texte sind Arbeitstitel → Bestätigung / Freigabe der Kundennamen
 - Neue Leistungstexte (content/leistungen.json: intro, liefern) sind Entwürfe → vom Kunden bestätigen
+- Vorschaubild beim Teilen: site/og-image.png (Logo). Beim Vercel-Deploy setzt tools/og-base.mjs die absolute Adresse; für die echte Domain in Vercel SITE_URL=https://artand.media setzen
 - Hosting: Vercel Hobby ist nur für nicht-kommerzielle Nutzung → für den Livegang Vercel Pro, Cloudflare Pages oder Netlify
 - Fakten „26 Jahre“ (aus „2000 – 2026 Copyright“ abgeleitet) bestätigen
 - Kontaktformular braucht Versand (z. B. PHP-Mailer beim Hoster oder Formular-Dienst)

@@ -27,6 +27,7 @@ def asset_version(rel):
     return hashlib.md5(open(os.path.join(SITE, rel), 'rb').read()).hexdigest()[:10]
 
 
+SITE_URL = os.environ.get('SITE_URL', 'https://artand.media').rstrip('/')
 CSS_V = asset_version('css/style.css')
 JS_V = asset_version('js/main.js')
 
@@ -173,7 +174,16 @@ def footer():
 
 
 def page(filename, title, desc, body, active='', og_img=None):
-    og = f'<meta property="og:image" content="{og_img}">' if og_img else ''
+    # Vorschaubild beim Teilen: immer das Logo. Absolute URL nötig (WhatsApp, LinkedIn …);
+    # die Domain wird beim Vercel-Deploy durch tools/og-base.mjs auf die echte Adresse gesetzt.
+    url = f"{SITE_URL}/{'' if filename == 'index.html' else filename}"
+    og = f'''<meta property="og:url" content="{url}">
+<meta property="og:image" content="{SITE_URL}/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ART AND MEDIA – Werbung, Messe, Event">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{SITE_URL}/og-image.png">'''
     doc = f'''<!doctype html>
 <html lang="de">
 <head>
@@ -185,8 +195,11 @@ def page(filename, title, desc, body, active='', og_img=None):
 <meta property="og:title" content="{e(title)}">
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="ART AND MEDIA">
+<meta property="og:locale" content="de_DE">
 {og}
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preload" href="fonts/inter-tight-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/style.css?v={CSS_V}">
 <script>document.documentElement.classList.add('js')</script>
@@ -362,7 +375,7 @@ def build_projekte():
 </section>
 {cta()}
 '''
-    page('projekte.html', 'Projekte – ART AND MEDIA', 'Referenzen von ART AND MEDIA: Store und POS, 3D- und LED-Buchstaben, Gebäudegestaltung, Leitsysteme, Messe und Event.', body, 'projekte')
+    page('projekte.html', 'Projekte – ART AND MEDIA', 'Referenzen von ART AND MEDIA: Messebau, Storegestaltung, Möbelbau, 3D- und LED-Buchstaben, Gebäudegestaltung und Leitsysteme.', body, 'projekte')
 
 
 def build_project(i, p):

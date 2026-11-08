@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "installCommand": "echo 'kein Install noetig'",
-  "buildCommand": "echo 'statische Seite, bereits gebaut'",
+  "buildCommand": "node tools/og-base.mjs",
   "outputDirectory": "site",
   "headers": [
     {
