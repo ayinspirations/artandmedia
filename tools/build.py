@@ -255,15 +255,6 @@ def build_index():
     statement = ('ART AND MEDIA ist Gestalter, Ideenfinder und Produzent. '
                  'Wir bauen Messestände, gestalten Stores, fertigen Möbel nach Maß und setzen Marken mit Werbetechnik ins Licht – alles aus einer Hand.')
 
-    focus = []
-    for i, d in enumerate(x for x in SVC_DATA if x['schwerpunkt']):
-        bk = d.get('bild_karte', d['bild'])
-        rel = BY_SLUG[bk[0]]['bilder'][bk[1]]
-        focus.append(f'''<a class="focus" href="{d['seite']}" data-reveal style="--d:{i * 110}">
-      {media(rel, '(max-width: 899px) 82vw, 33vw', d['label'])}
-      <span class="focus__body"><span class="svc__num">{i+1:02d}</span><span class="h3">{e(d['label'])}</span>
-      <span class="focus__text">{e(d['teaser'])}</span><span class="focus__more">Mehr erfahren {ICON_ARROW}</span></span>
-    </a>''')
     body = f'''
 <section class="hero hero--logo-top" aria-label="Einleitung">
   <div class="hero__sticky">
@@ -286,17 +277,7 @@ def build_index():
   </div>
 </section>
 
-<section class="section--tight" id="schwerpunkte" style="padding-top:0">
-  <div class="wrap">
-    <div class="section-head"><div class="section-head__text">
-      <span class="eyebrow" data-reveal>Schwerpunkte</span>
-      <h2 class="h2" data-split>{lines('Messebau. Storegestaltung.', 'Möbelbau.')}</h2>
-    </div></div>
-    <div class="focus-row">{''.join(focus)}</div>
-  </div>
-</section>
-
-<section class="section--tight" id="projekte">
+<section class="section--tight" id="projekte" style="padding-top:0">
   <div class="wrap section-head">
     <div class="section-head__text">
       <span class="eyebrow" data-reveal>Ausgewählte Projekte</span>
@@ -309,7 +290,7 @@ def build_index():
   </div>
 </section>
 
-<section class="section section--light" id="leistungen">
+<section class="section" id="leistungen">
   <div class="wrap">
     <div class="section-head">
       <div class="section-head__text">
