@@ -21,6 +21,15 @@ BY_SLUG = {p['slug']: p for p in PROJECTS}
 
 e = html.escape
 
+
+def asset_version(rel):
+    import hashlib
+    return hashlib.md5(open(os.path.join(SITE, rel), 'rb').read()).hexdigest()[:10]
+
+
+CSS_V = asset_version('css/style.css')
+JS_V = asset_version('js/main.js')
+
 # ---------------------------------------------------------------------------
 # Leistungen: Schlüssel, Labels, Seitendateien, Originaltexte
 # ---------------------------------------------------------------------------
@@ -179,7 +188,7 @@ def page(filename, title, desc, body, active='', og_img=None):
 {og}
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" href="fonts/inter-tight-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v={CSS_V}">
 <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
@@ -189,7 +198,7 @@ def page(filename, title, desc, body, active='', og_img=None):
 {body}
 </main>
 {footer()}
-<script src="js/main.js" defer></script>
+<script src="js/main.js?v={JS_V}" defer></script>
 </body>
 </html>
 '''
