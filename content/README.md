@@ -42,3 +42,6 @@ Stand: Scrape vom 08.11.2026 von https://www.artand.media (alle Seiten aus der S
 7. **Kaum Text** auf den Leistungsseiten (je 1 Absatz, Überschriften nur „…“). Galerie-Überschrift „Gallerie“ (Tippfehler). Leistungsseiten haben teils falsche Seitentitel (Galerie heißt „3D Buchstaben“).
 8. **Keine Alt-Texte** an den Bildern, Bilddateinamen sind Kameranamen (IMG_xxxx).
 9. Viele Referenzen zeigen Marken (Mercedes-Benz, AMG, Maybach, Petronas F1, Hugo Boss). Vor der Veröffentlichung klären, ob Referenzkunden namentlich genannt werden dürfen.
+
+## Projekt-Sortierung (Stand Prototyp)
+`projekte/projekte.json`: 22 Projektgruppen aus 100 Bildern, Kunden aus sichtbaren Logos abgeleitet, je Gruppe mit Sicherheit der Zuordnung (hoch/mittel/niedrig). 7 Bilder als vermutliche Stock- oder Musterfotos markiert (nicht verwendet), 3 Duplikate aussortiert. Visuelle Übersicht: `site/sortierung.html`.

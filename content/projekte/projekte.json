@@ -1,0 +1,572 @@
+{
+ "leistungen": {
+  "store": "Store / POS",
+  "3d": "3D / LED Buchstaben",
+  "geb": "Gebäude- und Objektgestaltung",
+  "leit": "Leit- und Orientierungssysteme",
+  "messe": "Messe & Event"
+ },
+ "projekte": [
+  {
+   "slug": "amg-petronas-f1",
+   "kunde": "Mercedes-AMG PETRONAS F1 Team",
+   "titel": "Markenauftritt im Paddock und am Standort",
+   "leistungen": [
+    "3D / LED Buchstaben",
+    "Gebäude- und Objektgestaltung"
+   ],
+   "leistung_keys": [
+    "3d",
+    "geb"
+   ],
+   "bilder": [
+    "3d-buchstaben/IMG_3113+2.jpeg",
+    "3d-buchstaben/15bcf759-efd0-4d94-9186-7d70c1f5c347.jpg",
+    "3d-buchstaben/IMG_3221.jpeg",
+    "3d-buchstaben/IMG_3605-32633039.png",
+    "3d-buchstaben/IMG_3608.jpeg",
+    "3d-buchstaben/IMG_5202.JPG",
+    "galerie/IMG_2501.jpeg",
+    "galerie/IMG_3241.jpeg"
+   ],
+   "cover": "3d-buchstaben/IMG_3113+2.jpeg",
+   "zuordnung_sicherheit": "hoch",
+   "text_entwurf": "Leuchtende 3D-Logos an Fassade und Hospitality-Gebäude, hinterleuchtete Wandpaneele und Markenwände für eines der bekanntesten Teams der Formel 1.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "mercedes-trophy",
+   "kunde": "MercedesTrophy",
+   "titel": "World Final im Öschberghof",
+   "leistungen": [
+    "Messe & Event",
+    "3D / LED Buchstaben",
+    "Leit- und Orientierungssysteme"
+   ],
+   "leistung_keys": [
+    "messe",
+    "3d",
+    "leit"
+   ],
+   "bilder": [
+    "galerie/IMG_4564.jpeg",
+    "galerie/IMG_4563.jpeg",
+    "galerie/IMG_4570.jpeg",
+    "galerie/IMG_4574.jpeg",
+    "leit-orientierungssysteme/IMG_2540.png",
+    "galerie/IMG_9231.jpg"
+   ],
+   "cover": "galerie/IMG_4564.jpeg",
+   "zuordnung_sicherheit": "mittel",
+   "text_entwurf": "Monumentale 3D-Buchstaben im Grün, Wegweiser, Fassaden-Branding und Eingangsinszenierung für das Golf-Weltfinale der MercedesTrophy.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "hugo-rb",
+   "kunde": "HUGO × RB",
+   "titel": "Markeninszenierung zum Kollektions-Launch",
+   "leistungen": [
+    "Messe & Event",
+    "Store / POS"
+   ],
+   "leistung_keys": [
+    "messe",
+    "store"
+   ],
+   "bilder": [
+    "gebaeude-objektgestaltung/IMG_8065.jpeg",
+    "galerie/IMG_8099-1fe44032.jpeg",
+    "galerie/IMG_8048.jpeg",
+    "galerie/IMG_7843-20bed1f7.png",
+    "galerie/IMG_8175.png"
+   ],
+   "cover": "gebaeude-objektgestaltung/IMG_8065.jpeg",
+   "zuordnung_sicherheit": "mittel",
+   "text_entwurf": "Wandgestaltung, Mobiliar mit Markenbranding, Bodenmarkierungen und gerahmte Artworks für die Kooperation von HUGO und dem Racing Bulls Team.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "mercedes-amg-affalterbach",
+   "kunde": "Mercedes-AMG",
+   "titel": "Markenwelt Affalterbach",
+   "leistungen": [
+    "3D / LED Buchstaben",
+    "Gebäude- und Objektgestaltung"
+   ],
+   "leistung_keys": [
+    "3d",
+    "geb"
+   ],
+   "bilder": [
+    "galerie/IMG_2477.jpeg",
+    "3d-buchstaben/DSC03639-b46f7cb4.JPG",
+    "messe-event/IMG_0377.JPG"
+   ],
+   "cover": "galerie/IMG_2477.jpeg",
+   "zuordnung_sicherheit": "mittel",
+   "text_entwurf": "Wappen-Wand in XXL, plastische AMG-Schriftzüge und eine Felgen-Inszenierung als Teil der Markenwelt am Stammsitz.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "mercedes-winterwelt",
+   "kunde": "Mercedes-Benz",
+   "titel": "Let’s stay cozy – Winterinszenierung",
+   "leistungen": [
+    "Messe & Event",
+    "Store / POS"
+   ],
+   "leistung_keys": [
+    "messe",
+    "store"
+   ],
+   "bilder": [
+    "messe-event/IMG_2847.jpeg",
+    "messe-event/IMG_2849.jpeg",
+    "galerie/IMG_2914.jpeg",
+    "galerie/IMG_3657.jpeg"
+   ],
+   "cover": "messe-event/IMG_2847.jpeg",
+   "zuordnung_sicherheit": "mittel",
+   "text_entwurf": "Saisonale Raumgestaltung mit Teddy-Silhouette, Lounge-Kulisse, geschmücktem Baum und Ausstellungsflächen im Markenhaus.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "mercedes-claims",
+   "kunde": "Mercedes-Benz",
+   "titel": "Timing. Mindset. Energy. – Führungskräftekonferenz",
+   "leistungen": [
+    "Messe & Event"
+   ],
+   "leistung_keys": [
+    "messe"
+   ],
+   "bilder": [
+    "galerie/c6063fdf-8aa1-413c-a46b-3fe5fca8f4fd.jpg",
+    "galerie/IMG_3732.jpeg",
+    "galerie/IMG_3306.jpeg"
+   ],
+   "cover": "galerie/c6063fdf-8aa1-413c-a46b-3fe5fca8f4fd.jpg",
+   "zuordnung_sicherheit": "mittel",
+   "text_entwurf": "Bühnenbranding, großformatige Claim-Wände im Foyer und individuell bedruckte Give-aways für eine interne Konferenz.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "mercedes-fussball",
+   "kunde": "Mercedes-Benz × VfB Stuttgart",
+   "titel": "JuniorCup & Fahrzeugbranding",
+   "leistungen": [
+    "Messe & Event"
+   ],
+   "leistung_keys": [
+    "messe"
+   ],
+   "bilder": [
+    "galerie/94f39a84-6eca-4f50-a11c-6eeee8e47a9c.jpg",
+    "messe-event/IMG_9905.jpeg",
+    "galerie/IMG_9510.png",
+    "messe-event/IMG_9339.jpeg"
+   ],
+   "cover": "galerie/94f39a84-6eca-4f50-a11c-6eeee8e47a9c.jpg",
+   "zuordnung_sicherheit": "mittel",
+   "text_entwurf": "Bühnen- und Hintergrundbranding für den Mercedes-Benz JuniorCup sowie Folierungen von Showcars im VfB-Design.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "hugo-boss-awards",
+   "kunde": "HUGO BOSS",
+   "titel": "Global Retail Awards",
+   "leistungen": [
+    "Messe & Event",
+    "Store / POS"
+   ],
+   "leistung_keys": [
+    "messe",
+    "store"
+   ],
+   "bilder": [
+    "galerie/IMG_8603-6f528fe1.jpeg",
+    "messe-event/IMG_8599.jpeg",
+    "store-pos/IMG_1495.jpeg"
+   ],
+   "cover": "galerie/IMG_8603-6f528fe1.jpeg",
+   "zuordnung_sicherheit": "mittel",
+   "text_entwurf": "Award-Trophäen, Pressewand mit Bühne und Produkt-Präsenter für die internationale Retail-Auszeichnung.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "mercedes-markenkommunikation",
+   "kunde": "Mercedes-Benz",
+   "titel": "Markenkommunikation im Raum",
+   "leistungen": [
+    "3D / LED Buchstaben",
+    "Gebäude- und Objektgestaltung"
+   ],
+   "leistung_keys": [
+    "3d",
+    "geb"
+   ],
+   "bilder": [
+    "galerie/IMG_6322.jpg",
+    "galerie/DSC03619-eae5a591.JPG",
+    "galerie/IMG_3383.png",
+    "gebaeude-objektgestaltung/IMG_5103.jpg",
+    "3d-buchstaben/IMG_3084.jpg",
+    "galerie/IMG_1453.jpg"
+   ],
+   "cover": "galerie/IMG_6322.jpg",
+   "zuordnung_sicherheit": "mittel",
+   "text_entwurf": "Hochglanz-Sterne in 3D, Statement-Wände, Gastronomie-Branding und hinterleuchtete Acryl-Schriftzüge für verschiedene Standorte.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "formel-e-ausstellung",
+   "kunde": "Mercedes-EQ Formula E",
+   "titel": "Ausstellung im Container",
+   "leistungen": [
+    "Messe & Event",
+    "Gebäude- und Objektgestaltung"
+   ],
+   "leistung_keys": [
+    "messe",
+    "geb"
+   ],
+   "bilder": [
+    "galerie/IMG_3083.jpg",
+    "galerie/IMG_3085.jpg"
+   ],
+   "cover": "galerie/IMG_3083.jpg",
+   "zuordnung_sicherheit": "niedrig",
+   "text_entwurf": "Ausstellungsgrafik mit Fahrzeug-Silhouette, Weltkarte der Rennstrecken und Infotafeln im Container-Format.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "tennis",
+   "kunde": "Mercedes-Benz",
+   "titel": "Tennis-Inszenierung",
+   "leistungen": [
+    "Messe & Event",
+    "Store / POS"
+   ],
+   "leistung_keys": [
+    "messe",
+    "store"
+   ],
+   "bilder": [
+    "galerie/a851f342-fd75-44be-8a86-892f92b43534.jpg",
+    "galerie/IMG_2443.jpeg",
+    "messe-event/71d87fc5-420f-4732-81bd-0b1d79ca11ef.jpg"
+   ],
+   "cover": "galerie/a851f342-fd75-44be-8a86-892f92b43534.jpg",
+   "zuordnung_sicherheit": "niedrig",
+   "text_entwurf": "Fahrzeugfolierung im WTA-Design, Vitrinen-Exponate und Spielfeld-Inszenierung für Tennis-Events.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "tegut",
+   "kunde": "tegut…",
+   "titel": "Markteröffnungen",
+   "leistungen": [
+    "Store / POS",
+    "Leit- und Orientierungssysteme",
+    "Gebäude- und Objektgestaltung"
+   ],
+   "leistung_keys": [
+    "store",
+    "leit",
+    "geb"
+   ],
+   "bilder": [
+    "gebaeude-objektgestaltung/IMG_2239.jpeg",
+    "gebaeude-objektgestaltung/IMG_0163.jpg",
+    "store-pos/IMG_2296.jpg",
+    "store-pos/1IMG_0184-0b18eea5.jpg"
+   ],
+   "cover": "gebaeude-objektgestaltung/IMG_2239.jpeg",
+   "zuordnung_sicherheit": "mittel",
+   "text_entwurf": "Fassaden- und Schaufensterbeschriftung, Parkleitsystem und Center-Werbung zur Eröffnung neuer Märkte.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "edeka-gebauer",
+   "kunde": "EDEKA Gebauer’s",
+   "titel": "Fassade und Leergut-Bereich",
+   "leistungen": [
+    "Store / POS",
+    "Gebäude- und Objektgestaltung"
+   ],
+   "leistung_keys": [
+    "store",
+    "geb"
+   ],
+   "bilder": [
+    "store-pos/IMG_9176.jpeg",
+    "store-pos/IMG_9370.jpeg"
+   ],
+   "cover": "store-pos/IMG_9176.jpeg",
+   "zuordnung_sicherheit": "mittel",
+   "text_entwurf": "Großflächige Fensterfolierung im Außenbereich und eine Bergpanorama-Wandgestaltung für den Leergut-Raum.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "global-rent-a-car",
+   "kunde": "Global Rent-a-Car",
+   "titel": "Pylon und Counter-Design",
+   "leistungen": [
+    "Gebäude- und Objektgestaltung",
+    "Store / POS",
+    "Leit- und Orientierungssysteme"
+   ],
+   "leistung_keys": [
+    "geb",
+    "store",
+    "leit"
+   ],
+   "bilder": [
+    "gebaeude-objektgestaltung/IMG_3580.jpg",
+    "store-pos/IMG_3572.JPG",
+    "store-pos/IMG_4069.jpg"
+   ],
+   "cover": "gebaeude-objektgestaltung/IMG_3580.jpg",
+   "zuordnung_sicherheit": "mittel",
+   "text_entwurf": "Mietwagen-Pylon mit Partner-Logos, Counter-Rückwände und Wandgestaltung für die Stationen.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "leitsystem-buerogebaeude",
+   "kunde": "Bürogebäude Stuttgart",
+   "titel": "Leit- und Orientierungssystem",
+   "leistungen": [
+    "Leit- und Orientierungssysteme"
+   ],
+   "leistung_keys": [
+    "leit"
+   ],
+   "bilder": [
+    "leit-orientierungssysteme/IMG_1242.jpeg",
+    "leit-orientierungssysteme/IMG_6601-851ff6ff.jpeg",
+    "leit-orientierungssysteme/IMG_7070.jpeg",
+    "leit-orientierungssysteme/IMG_4695.jpeg",
+    "leit-orientierungssysteme/IMG_6008.jpeg"
+   ],
+   "cover": "leit-orientierungssysteme/IMG_1242.jpeg",
+   "zuordnung_sicherheit": "niedrig",
+   "text_entwurf": "Geschosskennzeichnung, Tiefgaragen-Leitsystem, Türschilder und Bodenmarkierungen – abgestimmt auf Architektur und Farbkonzept.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "westwing",
+   "kunde": "Westwing",
+   "titel": "Fassade im Tennis-Look",
+   "leistungen": [
+    "Gebäude- und Objektgestaltung"
+   ],
+   "leistung_keys": [
+    "geb"
+   ],
+   "bilder": [
+    "galerie/IMG_1441.jpeg",
+    "messe-event/IMG_1440.jpeg"
+   ],
+   "cover": "galerie/IMG_1441.jpeg",
+   "zuordnung_sicherheit": "hoch",
+   "text_entwurf": "Fassadengestaltung als stilisiertes Tennisfeld – ein Blickfang für die Außengastronomie.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "bosch-expert",
+   "kunde": "Bosch × Expert",
+   "titel": "#builtwithBosch Messeauftritt",
+   "leistungen": [
+    "Messe & Event"
+   ],
+   "leistung_keys": [
+    "messe"
+   ],
+   "bilder": [
+    "messe-event/IMG_2485.jpeg",
+    "messe-event/IMG_2464.jpeg"
+   ],
+   "cover": "messe-event/IMG_2485.jpeg",
+   "zuordnung_sicherheit": "mittel",
+   "text_entwurf": "Messebau-Branding, beleuchtete Logos und Exponat-Inszenierung für einen Händlerauftritt.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "ausstellungsgrafik",
+   "kunde": "Museum & Ausstellung",
+   "titel": "Ausstellungsbeschriftung",
+   "leistungen": [
+    "Gebäude- und Objektgestaltung"
+   ],
+   "leistung_keys": [
+    "geb"
+   ],
+   "bilder": [
+    "store-pos/IMG_4232.jpeg",
+    "store-pos/1IMG_0596-7ca2a2a7.jpg"
+   ],
+   "cover": "store-pos/IMG_4232.jpeg",
+   "zuordnung_sicherheit": "niedrig",
+   "text_entwurf": "Typografische Wandgestaltung und Raumtexte für Ausstellungen.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "fassaden",
+   "kunde": "Verschiedene Kunden",
+   "titel": "Fassaden & Außenwerbung",
+   "leistungen": [
+    "Gebäude- und Objektgestaltung",
+    "3D / LED Buchstaben"
+   ],
+   "leistung_keys": [
+    "geb",
+    "3d"
+   ],
+   "bilder": [
+    "gebaeude-objektgestaltung/IMG_8843-5cc959cb.jpeg",
+    "gebaeude-objektgestaltung/IMG_1983.jpeg",
+    "gebaeude-objektgestaltung/IMG_1186.jpeg",
+    "gebaeude-objektgestaltung/IMG_2354.JPG",
+    "gebaeude-objektgestaltung/IMG_0828-08dcb480.jpeg",
+    "store-pos/IMG_6325.jpeg",
+    "leit-orientierungssysteme/IMG_8219.jpg",
+    "3d-buchstaben/IMG_5393.jpg",
+    "3d-buchstaben/IMG_4450.jpeg"
+   ],
+   "cover": "gebaeude-objektgestaltung/IMG_8843-5cc959cb.jpeg",
+   "zuordnung_sicherheit": "mittel",
+   "text_entwurf": "Gebäudebeschriftungen, Pylone, Fassadendrucke und Leuchtbuchstaben – von der Manufaktur bis zum Möbelhaus.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "interior",
+   "kunde": "Verschiedene Kunden",
+   "titel": "Interior & Raumgestaltung",
+   "leistungen": [
+    "Gebäude- und Objektgestaltung",
+    "Store / POS"
+   ],
+   "leistung_keys": [
+    "geb",
+    "store"
+   ],
+   "bilder": [
+    "3d-buchstaben/IMG_8297.jpeg",
+    "galerie/260689-92f27fc7.jpg",
+    "gebaeude-objektgestaltung/IMG_1200.jpeg",
+    "store-pos/IMG_3869.jpg",
+    "galerie/IMG_0671.jpeg",
+    "leit-orientierungssysteme/123.jpeg",
+    "leit-orientierungssysteme/IMG_0820.jpeg"
+   ],
+   "cover": "3d-buchstaben/IMG_8297.jpeg",
+   "zuordnung_sicherheit": "niedrig",
+   "text_entwurf": "Wandgestaltung, Glasdekor, Willkommens-Stelen und Shop-Interior für Gastronomie, Büro und Handel.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "events",
+   "kunde": "Verschiedene Kunden",
+   "titel": "Events & Ausstellungen",
+   "leistungen": [
+    "Messe & Event"
+   ],
+   "leistung_keys": [
+    "messe"
+   ],
+   "bilder": [
+    "messe-event/1839919-e7366c60.jpg",
+    "messe-event/860227-96c5ec83.jpg",
+    "messe-event/IMG_0820.JPG",
+    "messe-event/IMG_3286.jpeg",
+    "messe-event/d72c8ca9-a0ea-475a-af1b-8ccb498a6d0e.jpg"
+   ],
+   "cover": "messe-event/1839919-e7366c60.jpg",
+   "zuordnung_sicherheit": "niedrig",
+   "text_entwurf": "Ausstellungen, Messeflächen, Bühnen und Outdoor-Events – Planung, Produktion und Aufbau aus einer Hand.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  },
+  {
+   "slug": "manufaktur",
+   "kunde": "ART AND MEDIA",
+   "titel": "Manufaktur & eigener Auftritt",
+   "leistungen": [
+    "3D / LED Buchstaben"
+   ],
+   "leistung_keys": [
+    "3d"
+   ],
+   "bilder": [
+    "3d-buchstaben/A_1219.jpg",
+    "3d-buchstaben/DSC03621.JPG",
+    "leit-orientierungssysteme/DSC03660.JPG",
+    "3d-buchstaben/IMG_7634.jpg",
+    "3d-buchstaben/IMG_1907.png",
+    "3d-buchstaben/IMG_2538.jpeg",
+    "3d-buchstaben/DSC03643-0c1b6044.JPG",
+    "galerie/DSC03632-9b572721.JPG",
+    "galerie/IMG_3064.jpeg",
+    "galerie/IMG_0351.jpeg",
+    "gebaeude-objektgestaltung/380769.jpg",
+    "kontakt/DSC03622.JPG"
+   ],
+   "cover": "3d-buchstaben/A_1219.jpg",
+   "zuordnung_sicherheit": "hoch",
+   "text_entwurf": "Ein Blick in die Werkstatt: LED-Bestückung, Kantenbearbeitung, Prototypen und unser eigener Markenauftritt.",
+   "jahr": null,
+   "ort": null,
+   "freigabe_kundenname": null
+  }
+ ],
+ "vermutlich_stockfotos": [
+  "store-pos/1051744-35d23587.jpg",
+  "store-pos/1114376-a4eb18ab.jpg",
+  "store-pos/1827548-8af1760e.jpg",
+  "store-pos/2362392-4dd0e5df.jpg",
+  "store-pos/383568-cd08d375.jpg",
+  "store-pos/IMG_4459.jpeg",
+  "leit-orientierungssysteme/2574078.jpg"
+ ]
+}

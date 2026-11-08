@@ -1,0 +1,1140 @@
+{
+ "3d-buchstaben/IMG_3113+2.jpeg": {
+  "name": "amg-petronas-f1-01",
+  "w": 1920,
+  "h": 2113,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#5c6873"
+ },
+ "3d-buchstaben/15bcf759-efd0-4d94-9186-7d70c1f5c347.jpg": {
+  "name": "amg-petronas-f1-02",
+  "w": 1200,
+  "h": 1600,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#406085"
+ },
+ "3d-buchstaben/IMG_3221.jpeg": {
+  "name": "amg-petronas-f1-03",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#5d625e"
+ },
+ "3d-buchstaben/IMG_3605-32633039.png": {
+  "name": "amg-petronas-f1-04",
+  "w": 1901,
+  "h": 1208,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#999f9d"
+ },
+ "3d-buchstaben/IMG_3608.jpeg": {
+  "name": "amg-petronas-f1-05",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#706d65"
+ },
+ "3d-buchstaben/IMG_5202.JPG": {
+  "name": "amg-petronas-f1-06",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9b8c81"
+ },
+ "galerie/IMG_2501.jpeg": {
+  "name": "amg-petronas-f1-07",
+  "w": 1920,
+  "h": 2560,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#55666f"
+ },
+ "galerie/IMG_3241.jpeg": {
+  "name": "amg-petronas-f1-08",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7a7c7b"
+ },
+ "galerie/IMG_4564.jpeg": {
+  "name": "mercedes-trophy-01",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#777168"
+ },
+ "galerie/IMG_4563.jpeg": {
+  "name": "mercedes-trophy-02",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6d7d89"
+ },
+ "galerie/IMG_4570.jpeg": {
+  "name": "mercedes-trophy-03",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#486e94"
+ },
+ "galerie/IMG_4574.jpeg": {
+  "name": "mercedes-trophy-04",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#5a4933"
+ },
+ "leit-orientierungssysteme/IMG_2540.png": {
+  "name": "mercedes-trophy-05",
+  "w": 1920,
+  "h": 2560,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#798775"
+ },
+ "galerie/IMG_9231.jpg": {
+  "name": "mercedes-trophy-06",
+  "w": 1920,
+  "h": 1080,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7b7a65"
+ },
+ "gebaeude-objektgestaltung/IMG_8065.jpeg": {
+  "name": "hugo-rb-01",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a4968c"
+ },
+ "galerie/IMG_8099-1fe44032.jpeg": {
+  "name": "hugo-rb-02",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6a6e79"
+ },
+ "galerie/IMG_8048.jpeg": {
+  "name": "hugo-rb-03",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7e736d"
+ },
+ "galerie/IMG_7843-20bed1f7.png": {
+  "name": "hugo-rb-04",
+  "w": 1920,
+  "h": 1285,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9c9692"
+ },
+ "galerie/IMG_8175.png": {
+  "name": "hugo-rb-05",
+  "w": 1920,
+  "h": 909,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7e7778"
+ },
+ "galerie/IMG_2477.jpeg": {
+  "name": "mercedes-amg-affalterbach-01",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#535862"
+ },
+ "3d-buchstaben/DSC03639-b46f7cb4.JPG": {
+  "name": "mercedes-amg-affalterbach-02",
+  "w": 1200,
+  "h": 799,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#49494c"
+ },
+ "messe-event/IMG_0377.JPG": {
+  "name": "mercedes-amg-affalterbach-03",
+  "w": 1920,
+  "h": 1434,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#656062"
+ },
+ "messe-event/IMG_2847.jpeg": {
+  "name": "mercedes-winterwelt-01",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#4f4a40"
+ },
+ "messe-event/IMG_2849.jpeg": {
+  "name": "mercedes-winterwelt-02",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#544e43"
+ },
+ "galerie/IMG_2914.jpeg": {
+  "name": "mercedes-winterwelt-03",
+  "w": 1920,
+  "h": 2560,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6c675d"
+ },
+ "galerie/IMG_3657.jpeg": {
+  "name": "mercedes-winterwelt-04",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#716e69"
+ },
+ "galerie/c6063fdf-8aa1-413c-a46b-3fe5fca8f4fd.jpg": {
+  "name": "mercedes-claims-01",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#4a4a54"
+ },
+ "galerie/IMG_3732.jpeg": {
+  "name": "mercedes-claims-02",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9d968b"
+ },
+ "galerie/IMG_3306.jpeg": {
+  "name": "mercedes-claims-03",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#856c61"
+ },
+ "galerie/94f39a84-6eca-4f50-a11c-6eeee8e47a9c.jpg": {
+  "name": "mercedes-fussball-01",
+  "w": 1600,
+  "h": 1200,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6f6058"
+ },
+ "messe-event/IMG_9905.jpeg": {
+  "name": "mercedes-fussball-02",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7a6e70"
+ },
+ "galerie/IMG_9510.png": {
+  "name": "mercedes-fussball-03",
+  "w": 1920,
+  "h": 1201,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#625e5d"
+ },
+ "messe-event/IMG_9339.jpeg": {
+  "name": "mercedes-fussball-04",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7e7671"
+ },
+ "galerie/IMG_8603-6f528fe1.jpeg": {
+  "name": "hugo-boss-awards-01",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#636260"
+ },
+ "messe-event/IMG_8599.jpeg": {
+  "name": "hugo-boss-awards-02",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6b685f"
+ },
+ "store-pos/IMG_1495.jpeg": {
+  "name": "hugo-boss-awards-03",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7f7a6f"
+ },
+ "galerie/IMG_6322.jpg": {
+  "name": "mercedes-markenkommunikation-01",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#5e5e5d"
+ },
+ "galerie/DSC03619-eae5a591.JPG": {
+  "name": "mercedes-markenkommunikation-02",
+  "w": 1200,
+  "h": 799,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#575759"
+ },
+ "galerie/IMG_3383.png": {
+  "name": "mercedes-markenkommunikation-03",
+  "w": 1563,
+  "h": 1974,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#534948"
+ },
+ "gebaeude-objektgestaltung/IMG_5103.jpg": {
+  "name": "mercedes-markenkommunikation-04",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#6b6463"
+ },
+ "3d-buchstaben/IMG_3084.jpg": {
+  "name": "mercedes-markenkommunikation-05",
+  "w": 1198,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#343433"
+ },
+ "galerie/IMG_1453.jpg": {
+  "name": "mercedes-markenkommunikation-06",
+  "w": 1200,
+  "h": 794,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#6d6b6a"
+ },
+ "galerie/IMG_3083.jpg": {
+  "name": "formel-e-ausstellung-01",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#44413b"
+ },
+ "galerie/IMG_3085.jpg": {
+  "name": "formel-e-ausstellung-02",
+  "w": 1199,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#2b3642"
+ },
+ "galerie/a851f342-fd75-44be-8a86-892f92b43534.jpg": {
+  "name": "tennis-01",
+  "w": 1920,
+  "h": 1080,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#807668"
+ },
+ "galerie/IMG_2443.jpeg": {
+  "name": "tennis-02",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9b9d90"
+ },
+ "messe-event/71d87fc5-420f-4732-81bd-0b1d79ca11ef.jpg": {
+  "name": "tennis-03",
+  "w": 1600,
+  "h": 900,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#746463"
+ },
+ "gebaeude-objektgestaltung/IMG_2239.jpeg": {
+  "name": "tegut-01",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#727581"
+ },
+ "gebaeude-objektgestaltung/IMG_0163.jpg": {
+  "name": "tegut-02",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#b5aeaa"
+ },
+ "store-pos/IMG_2296.jpg": {
+  "name": "tegut-03",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#62584d"
+ },
+ "store-pos/1IMG_0184-0b18eea5.jpg": {
+  "name": "tegut-04",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#9c856e"
+ },
+ "store-pos/IMG_9176.jpeg": {
+  "name": "edeka-gebauer-01",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7e8c8c"
+ },
+ "store-pos/IMG_9370.jpeg": {
+  "name": "edeka-gebauer-02",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#868174"
+ },
+ "gebaeude-objektgestaltung/IMG_3580.jpg": {
+  "name": "global-rent-a-car-01",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#6f7a85"
+ },
+ "store-pos/IMG_3572.JPG": {
+  "name": "global-rent-a-car-02",
+  "w": 1920,
+  "h": 2560,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#564c47"
+ },
+ "store-pos/IMG_4069.jpg": {
+  "name": "global-rent-a-car-03",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#837d75"
+ },
+ "leit-orientierungssysteme/IMG_1242.jpeg": {
+  "name": "leitsystem-buerogebaeude-01",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#878581"
+ },
+ "leit-orientierungssysteme/IMG_6601-851ff6ff.jpeg": {
+  "name": "leitsystem-buerogebaeude-02",
+  "w": 1920,
+  "h": 2560,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#91866d"
+ },
+ "leit-orientierungssysteme/IMG_7070.jpeg": {
+  "name": "leitsystem-buerogebaeude-03",
+  "w": 1920,
+  "h": 2560,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#767e74"
+ },
+ "leit-orientierungssysteme/IMG_4695.jpeg": {
+  "name": "leitsystem-buerogebaeude-04",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#777777"
+ },
+ "leit-orientierungssysteme/IMG_6008.jpeg": {
+  "name": "leitsystem-buerogebaeude-05",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b8370"
+ },
+ "galerie/IMG_1441.jpeg": {
+  "name": "westwing-01",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#638790"
+ },
+ "messe-event/IMG_1440.jpeg": {
+  "name": "westwing-02",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#608992"
+ },
+ "messe-event/IMG_2485.jpeg": {
+  "name": "bosch-expert-01",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8f8177"
+ },
+ "messe-event/IMG_2464.jpeg": {
+  "name": "bosch-expert-02",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#645e5b"
+ },
+ "store-pos/IMG_4232.jpeg": {
+  "name": "ausstellungsgrafik-01",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#90897d"
+ },
+ "store-pos/1IMG_0596-7ca2a2a7.jpg": {
+  "name": "ausstellungsgrafik-02",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#868778"
+ },
+ "gebaeude-objektgestaltung/IMG_8843-5cc959cb.jpeg": {
+  "name": "fassaden-01",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#696b6a"
+ },
+ "gebaeude-objektgestaltung/IMG_1983.jpeg": {
+  "name": "fassaden-02",
+  "w": 1920,
+  "h": 2560,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#80807f"
+ },
+ "gebaeude-objektgestaltung/IMG_1186.jpeg": {
+  "name": "fassaden-03",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#496983"
+ },
+ "gebaeude-objektgestaltung/IMG_2354.JPG": {
+  "name": "fassaden-04",
+  "w": 1920,
+  "h": 2560,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#847c72"
+ },
+ "gebaeude-objektgestaltung/IMG_0828-08dcb480.jpeg": {
+  "name": "fassaden-05",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#616773"
+ },
+ "store-pos/IMG_6325.jpeg": {
+  "name": "fassaden-06",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e8770"
+ },
+ "leit-orientierungssysteme/IMG_8219.jpg": {
+  "name": "fassaden-07",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#585961"
+ },
+ "3d-buchstaben/IMG_5393.jpg": {
+  "name": "fassaden-08",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#465568"
+ },
+ "3d-buchstaben/IMG_4450.jpeg": {
+  "name": "fassaden-09",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#838787"
+ },
+ "3d-buchstaben/IMG_8297.jpeg": {
+  "name": "interior-01",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#827169"
+ },
+ "galerie/260689-92f27fc7.jpg": {
+  "name": "interior-02",
+  "w": 1200,
+  "h": 801,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#b6b8bb"
+ },
+ "gebaeude-objektgestaltung/IMG_1200.jpeg": {
+  "name": "interior-03",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#83716a"
+ },
+ "store-pos/IMG_3869.jpg": {
+  "name": "interior-04",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#595154"
+ },
+ "galerie/IMG_0671.jpeg": {
+  "name": "interior-05",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#867e72"
+ },
+ "leit-orientierungssysteme/123.jpeg": {
+  "name": "interior-06",
+  "w": 1920,
+  "h": 2560,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#877c71"
+ },
+ "leit-orientierungssysteme/IMG_0820.jpeg": {
+  "name": "interior-07",
+  "w": 1920,
+  "h": 2560,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6e6e6e"
+ },
+ "messe-event/1839919-e7366c60.jpg": {
+  "name": "events-01",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#969694"
+ },
+ "messe-event/860227-96c5ec83.jpg": {
+  "name": "events-02",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#695745"
+ },
+ "messe-event/IMG_0820.JPG": {
+  "name": "events-03",
+  "w": 1920,
+  "h": 1434,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#504353"
+ },
+ "messe-event/IMG_3286.jpeg": {
+  "name": "events-04",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#828381"
+ },
+ "messe-event/d72c8ca9-a0ea-475a-af1b-8ccb498a6d0e.jpg": {
+  "name": "events-05",
+  "w": 992,
+  "h": 1600,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#4f5872"
+ },
+ "3d-buchstaben/A_1219.jpg": {
+  "name": "manufaktur-01",
+  "w": 1201,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#6e6961"
+ },
+ "3d-buchstaben/DSC03621.JPG": {
+  "name": "manufaktur-02",
+  "w": 1200,
+  "h": 500,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#98979a"
+ },
+ "leit-orientierungssysteme/DSC03660.JPG": {
+  "name": "manufaktur-03",
+  "w": 1200,
+  "h": 500,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#5d5b5d"
+ },
+ "3d-buchstaben/IMG_7634.jpg": {
+  "name": "manufaktur-04",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#a9a8a6"
+ },
+ "3d-buchstaben/IMG_1907.png": {
+  "name": "manufaktur-05",
+  "w": 685,
+  "h": 357,
+  "sizes": [
+   480
+  ],
+  "color": "#a0a19e"
+ },
+ "3d-buchstaben/IMG_2538.jpeg": {
+  "name": "manufaktur-06",
+  "w": 1920,
+  "h": 2560,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9e8676"
+ },
+ "3d-buchstaben/DSC03643-0c1b6044.JPG": {
+  "name": "manufaktur-07",
+  "w": 1200,
+  "h": 799,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#575759"
+ },
+ "galerie/DSC03632-9b572721.JPG": {
+  "name": "manufaktur-08",
+  "w": 1200,
+  "h": 799,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#7c7b7d"
+ },
+ "galerie/IMG_3064.jpeg": {
+  "name": "manufaktur-09",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7b7d7e"
+ },
+ "galerie/IMG_0351.jpeg": {
+  "name": "manufaktur-10",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7b7979"
+ },
+ "gebaeude-objektgestaltung/380769.jpg": {
+  "name": "manufaktur-11",
+  "w": 1200,
+  "h": 500,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#6c6562"
+ },
+ "kontakt/DSC03622.JPG": {
+  "name": "manufaktur-12",
+  "w": 1200,
+  "h": 500,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#89878e"
+ },
+ "store-pos/1051744-35d23587.jpg": {
+  "name": "stock-01",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#948dab"
+ },
+ "store-pos/1114376-a4eb18ab.jpg": {
+  "name": "stock-02",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#b06e72"
+ },
+ "store-pos/1827548-8af1760e.jpg": {
+  "name": "stock-03",
+  "w": 1200,
+  "h": 813,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#6f7a7a"
+ },
+ "store-pos/2362392-4dd0e5df.jpg": {
+  "name": "stock-04",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#666056"
+ },
+ "store-pos/383568-cd08d375.jpg": {
+  "name": "stock-05",
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#d7d5cf"
+ },
+ "store-pos/IMG_4459.jpeg": {
+  "name": "stock-06",
+  "w": 1920,
+  "h": 1440,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9c9a93"
+ },
+ "leit-orientierungssysteme/2574078.jpg": {
+  "name": "stock-07",
+  "w": 1200,
+  "h": 500,
+  "sizes": [
+   480,
+   960
+  ],
+  "color": "#b2a5ae"
+ }
+}
