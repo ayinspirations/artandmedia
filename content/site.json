@@ -1,0 +1,18 @@
+{
+  "firma": "ART AND MEDIA",
+  "inhaber": "Tilo Augsten",
+  "claim_logo": "WERBUNG | MESSE | EVENT",
+  "telefon": { "mobil": "+49 171 6103816", "festnetz_aus_datenschutz": "07031 262435" },
+  "email": "mail@artand.media",
+  "standorte": [
+    { "typ": "Hauptsitz", "strasse": "Seestraße 3/1", "plz": "71116", "ort": "Gärtringen", "land": "Germany" },
+    { "typ": "Niederlassung", "strasse": "Nelly-Sachs-Weg 2/2", "plz": "71101", "ort": "Schönaich", "land": "Germany" }
+  ],
+  "buerozeiten": { "Mo - Fr": "9:00 - 17:00", "Sa - So": "Geschlossen" },
+  "steuer": { "finanzamt": "Böblingen", "steuernummer": "56145/58053", "ust_id": "DE210180076" },
+  "shop": "https://artandmedia.shop (Shopify, aktuell 1 Produkt: Bohrloch Anzeichen-Schablone, 12,90 €)",
+  "copyright": "2000 - 2026 Copyright © ART AND MEDIA, alle Rechte vorbehalten.",
+  "navigation": ["Home", "Store / POS", "3D / LED Buchstaben", "Gebäude- und Objektgestaltung", "Leit- und Orientierungssysteme", "Messe & Event", "Galerie", "Kontakt", "Impressum", "Shop"],
+  "kontaktformular_felder": ["Name", "E-Mail", "Telefon", "Nachricht"],
+  "alte_plattform": "IONOS MyWebsite (Duda), Fonts: Amaranth, Cabin, Abel, Gudea, Source Sans Pro"
+}
